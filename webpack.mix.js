@@ -38,4 +38,5 @@ mix
     devServer: devServer
   })
   .version()
-  .sourceMaps();
+  //.sourceMaps();
+  .sourceMaps(false, 'source-map');
